@@ -1606,6 +1606,26 @@ button, input {
     gap: 30px;
   }
   
+  .email-135 {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .email-135-inputs {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .newsletter-input-field {
+    width: 100%;
+  }
+  
+  .newsletter-submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
   .footer-2 .row-95 {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -1720,14 +1740,6 @@ button, input {
 
   .new-arrivals-next {
     right: 0;
-  }
-  
-  .email-135-inputs {
-    flex-direction: column;
-  }
-  
-  .newsletter-submit-btn {
-    width: 100%;
   }
   
   .text-422 {
