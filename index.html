@@ -69,7 +69,10 @@
       
       <!-- Slide 1 -->
       <div class="carousel-slide active">
-        <img src="images/node-408.png" class="node-408" alt="Interior Design with Photo Frames and Nice Chairs" />
+        <picture>
+          <source media="(max-width: 992px)" srcset="images/mobile-banner-interior.png">
+          <img src="images/hero-banner-interior.png" class="node-408" alt="Interior Design with Photo Frames and Nice Chairs" />
+        </picture>
         <div class="node-409"></div>
         <div class="heading-421">
           <h1 class="text-422"><span class="text-white">Unleash Elegance:<br>Your Home, Your Style</span></h1>
@@ -87,7 +90,10 @@
 
       <!-- Slide 2 -->
       <div class="carousel-slide">
-        <img src="images/untitled-2-483.png" class="node-408" alt="Luxurious Drinkware Collection" />
+        <picture>
+          <source media="(max-width: 992px)" srcset="images/mobile-banner-drinkware.png">
+          <img src="images/hero-banner-drinkware.png" class="node-408" alt="Luxurious Drinkware Collection" />
+        </picture>
         <div class="node-409"></div>
         <div class="heading-421">
           <h1 class="text-422"><span class="text-white">Elevate Every Sip:<br>Luxurious Drinkware Collection</span></h1>
@@ -105,7 +111,10 @@
 
       <!-- Slide 3 -->
       <div class="carousel-slide">
-        <img src="images/untitled-1-498.png" class="node-408" alt="Raising Homes, Exceeding Expectations" />
+        <picture>
+          <source media="(max-width: 992px)" srcset="images/mobile-banner-home.png">
+          <img src="images/hero-banner-home.png" class="node-408" alt="Raising Homes, Exceeding Expectations" />
+        </picture>
         <div class="node-409"></div>
         <div class="heading-421">
           <h1 class="text-422"><span class="text-white">Raising Homes,<br>Exceeding Expectations</span></h1>
@@ -145,7 +154,7 @@
       <!-- Category 1 -->
       <div class="collection-1-383">
         <div class="image-384">
-          <img src="images/1807489815372-385.png" class="1807489815372-385" alt="Artificial Flowers and Plants" />
+          <img src="images/artificial-flowers-plants.png" class="1807489815372-385" alt="Artificial Flowers and Plants" loading="lazy" />
           <div class="1807489815372-386"></div>
         </div>
         <p class="text-387"><span class="text-white">Artificial Flowers and Plants</span></p>
@@ -154,7 +163,7 @@
       <!-- Category 2 -->
       <div class="collection-2-388">
         <div class="image-389">
-          <img src="images/node-390.png" class="node-390" alt="Luxury Vases" />
+          <img src="images/category-luxury-vases.png" class="node-390" alt="Luxury Vases" loading="lazy" />
           <div class="1807489815372-391"></div>
         </div>
         <p class="text-392"><span class="text-white">Luxury Vases</span></p>
@@ -163,7 +172,7 @@
       <!-- Category 3 -->
       <div class="collection-3-393">
         <div class="image-394">
-          <img src="images/node-395.png" class="node-395" alt="Ginger Jars" />
+          <img src="images/category-ginger-jars.png" class="node-395" alt="Ginger Jars" loading="lazy" />
           <div class="1807489815372-396"></div>
         </div>
         <p class="text-397"><span class="text-white">Ginger Jars</span></p>
@@ -172,7 +181,7 @@
       <!-- Category 4 -->
       <div class="collection-4-398">
         <div class="image-399">
-          <img src="images/node-400.png" class="node-400" alt="Drinkware" />
+          <img src="images/category-drinkware.png" class="node-400" alt="Drinkware" loading="lazy" />
           <div class="1807489815372-401"></div>
         </div>
         <p class="text-402"><span class="text-white">Drinkware</span></p>
@@ -187,92 +196,165 @@
       <p class="text-380"><span class="text-rgb-64-65-66">Discover the latest in home décor. Fresh, stylish designs to elevate your space with timeless elegance and modern flair.</span></p>
     </div>
     
-    <div class="arrows-367">
-      <div class="left-arrow-368">
-        <img src="images/vector-371.svg" class="vector-371" alt="Prev" />
-      </div>
-      <div class="right-arrow-373">
-        <img src="images/vector-376.svg" class="vector-376" alt="Next" />
-      </div>
-    </div>
+    <div class="new-arrivals-carousel">
+      <button class="new-arrivals-prev" id="arrivals-prev" aria-label="Previous slide">
+        <img src="images/left-arrow.svg" alt="Prev" loading="lazy" />
+      </button>
 
-    <div class="row-321">
-      <!-- Product 1 -->
-      <div class="products-1-322">
-        <div class="image-324">
-          <img src="images/node-325.png" class="node-325" alt="Lagoona Ginger jar" />
-        </div>
-        <div class="prod-details">
-          <p class="text-326"><span class="text-rgb-13-13-13">Lagoona Ginger jar</span></p>
-          <p class="text-327"><span class="text-rgb-13-13-13">$31.80</span></p>
-        </div>
-        <div class="view-all-button-328">
-          <p class="text-330"><span class="text-rgb-53-51-51">Add To Cart</span></p>
+      <div class="carousel-window">
+        <div class="row-321">
+          <!-- Product 1 -->
+          <div class="products-1-322">
+            <div class="image-324">
+              <img src="images/lagoona-ginger-jar.png" class="node-325" alt="Lagoona Ginger jar" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-326"><span class="text-rgb-13-13-13">Lagoona Ginger jar</span></p>
+              <p class="text-327"><span class="text-rgb-13-13-13">$31.80</span></p>
+            </div>
+            <div class="view-all-button-328">
+              <p class="text-330"><span class="text-rgb-53-51-51">Add To Cart</span></p>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="products-2-331">
+            <div class="image-333">
+              <img src="images/ceramic-tableware.png" class="node-334" alt="Lux Ceramic dinner tableware" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-335"><span class="text-rgb-13-13-13">Lux Ceramic dinner tableware</span></p>
+              <p class="text-336"><span class="text-rgb-13-13-13">$25.00</span></p>
+            </div>
+            <div class="view-all-button-337">
+              <p class="text-339"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="products-3-340">
+            <div class="image-342">
+              <img src="images/luxury-abstract-vase.png" class="node-343" alt="Luxury Abstract vase" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-344"><span class="text-rgb-13-13-13">Luxury Abstract vase</span></p>
+              <p class="text-345"><span class="text-rgb-13-13-13">$51.20</span></p>
+            </div>
+            <div class="view-all-button-346">
+              <p class="text-348"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="products-4-349">
+            <div class="image-351">
+              <img src="images/luxury-wall-clock.png" class="node-352" alt="Luxurious Silent Wall Clock" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-353"><span class="text-rgb-13-13-13">Luxurious Silent Wall Clock</span></p>
+              <p class="text-354"><span class="text-rgb-13-13-13">$150.00</span></p>
+            </div>
+            <div class="view-all-button-355">
+              <p class="text-357"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="products-5-358">
+            <div class="image-360">
+              <img src="images/modern-dining-chairs.png" class="node-361" alt="Modern European Dining Chairs" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-362"><span class="text-rgb-13-13-13">Modern European Dining Chairs</span></p>
+              <p class="text-363"><span class="text-rgb-13-13-13">$298.28</span></p>
+            </div>
+            <div class="view-all-button-364">
+              <p class="text-366"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 6 (Copied from Best Sellers 1) -->
+          <div class="products-1-209">
+            <div class="image-211">
+              <img src="images/large-floor-vase.png" class="node-212" alt="High-End Large Floor vase" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-213"><span class="text-rgb-13-13-13">High-End Large Floor vase</span></p>
+              <p class="text-214"><span class="text-rgb-13-13-13">$184.40</span></p>
+            </div>
+            <div class="view-all-button-215">
+              <p class="text-217"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 7 (Copied from Best Sellers 2) -->
+          <div class="products-2-218">
+            <div class="image-220">
+              <img src="images/gold-ginger-jar.png" class="node-221" alt="Pierced Gold Ginger Jar" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-222"><span class="text-rgb-13-13-13">Pierced Gold Ginger Jar</span></p>
+              <p class="text-223"><span class="text-rgb-13-13-13">$18.49</span></p>
+            </div>
+            <div class="view-all-button-224">
+              <p class="text-226"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 8 (Copied from Best Sellers 3) -->
+          <div class="products-3-227">
+            <div class="image-229">
+              <img src="images/rainbow-glass.png" class="node-230" alt="Romantic Rainbow Glass" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-231"><span class="text-rgb-13-13-13">Romantic Rainbow Glass</span></p>
+              <p class="text-232"><span class="text-rgb-13-13-13">$21.00</span></p>
+            </div>
+            <div class="view-all-button-233">
+              <p class="text-235"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 9 (Copied from Best Sellers 4) -->
+          <div class="products-4-236">
+            <div class="image-238">
+              <img src="images/sage-flower-bouquet.png" class="node-239" alt="Sage flower bouquet" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-240"><span class="text-rgb-13-13-13">Sage flower bouquet</span></p>
+              <p class="text-241"><span class="text-rgb-13-13-13">$19.00</span></p>
+            </div>
+            <div class="view-all-button-242">
+              <p class="text-244"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
+
+          <!-- Product 10 (Copied from Best Sellers 5) -->
+          <div class="products-5-245">
+            <div class="image-247">
+              <img src="images/luxury-art-vase.png" class="2919796450014-248" alt="Vase Decoration Art Light Luxury" loading="lazy" />
+            </div>
+            <div class="prod-details">
+              <p class="text-249"><span class="text-rgb-13-13-13">Vase Decoration Art Light Luxury</span></p>
+              <p class="text-250"><span class="text-rgb-13-13-13">$69.00</span></p>
+            </div>
+            <div class="view-all-button-251">
+              <p class="text-253"><span class="text-rgb-53-51-51">Choose an option</span></p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Product 2 -->
-      <div class="products-2-331">
-        <div class="image-333">
-          <img src="images/node-334.png" class="node-334" alt="Lux Ceramic dinner tableware" />
-        </div>
-        <div class="prod-details">
-          <p class="text-335"><span class="text-rgb-13-13-13">Lux Ceramic dinner tableware</span></p>
-          <p class="text-336"><span class="text-rgb-13-13-13">$25.00</span></p>
-        </div>
-        <div class="view-all-button-337">
-          <p class="text-339"><span class="text-rgb-53-51-51">Choose an option</span></p>
-        </div>
-      </div>
-
-      <!-- Product 3 -->
-      <div class="products-3-340">
-        <div class="image-342">
-          <img src="images/node-343.png" class="node-343" alt="Luxury Abstract vase" />
-        </div>
-        <div class="prod-details">
-          <p class="text-344"><span class="text-rgb-13-13-13">Luxury Abstract vase</span></p>
-          <p class="text-345"><span class="text-rgb-13-13-13">$51.20</span></p>
-        </div>
-        <div class="view-all-button-346">
-          <p class="text-348"><span class="text-rgb-53-51-51">Choose an option</span></p>
-        </div>
-      </div>
-
-      <!-- Product 4 -->
-      <div class="products-4-349">
-        <div class="image-351">
-          <img src="images/node-352.png" class="node-352" alt="Luxurious Silent Wall Clock" />
-        </div>
-        <div class="prod-details">
-          <p class="text-353"><span class="text-rgb-13-13-13">Luxurious Silent Wall Clock</span></p>
-          <p class="text-354"><span class="text-rgb-13-13-13">$150.00</span></p>
-        </div>
-        <div class="view-all-button-355">
-          <p class="text-357"><span class="text-rgb-53-51-51">Choose an option</span></p>
-        </div>
-      </div>
-
-      <!-- Product 5 -->
-      <div class="products-5-358">
-        <div class="image-360">
-          <img src="images/node-361.png" class="node-361" alt="Modern European Dining Chairs" />
-        </div>
-        <div class="prod-details">
-          <p class="text-362"><span class="text-rgb-13-13-13">Modern European Dining Chairs</span></p>
-          <p class="text-363"><span class="text-rgb-13-13-13">$298.28</span></p>
-        </div>
-        <div class="view-all-button-364">
-          <p class="text-366"><span class="text-rgb-53-51-51">Choose an option</span></p>
-        </div>
-      </div>
+      <button class="new-arrivals-next" id="arrivals-next" aria-label="Next slide">
+        <img src="images/right-arrow.svg" alt="Next" loading="lazy" />
+      </button>
     </div>
   </section>
 
   <!-- 6. Hot Products Section -->
   <section class="hot-products-302" id="hot-products">
     <div class="mask-group-303">
-      <img src="images/node-304.png" class="node-304" alt="Modern Dining Room Living Room with Retro Armchair" />
+      <img src="images/hot-products-banner.png" class="node-304" alt="Modern Dining Room Living Room with Retro Armchair" loading="lazy" />
     </div>
     <div class="text-305">
       <div class="row-307">
@@ -281,9 +363,9 @@
         <div class="property-1-default">
           <div class="group-4-312">
             <div class="group-3-315">
-              <img src="images/circular-arrow.png" alt="Arrow" />
+              <img src="images/circular-arrow.png" alt="Arrow" loading="lazy" />
             </div>
-            <span class="btn-text">Buy Now</span>
+            <span class="btn-text">Shop Now</span>
           </div>
         </div>
       </div>
@@ -301,7 +383,7 @@
       <!-- Product 1 -->
       <div class="products-1-209">
         <div class="image-211">
-          <img src="images/node-212.png" class="node-212" alt="High-End Large Floor vase" />
+          <img src="images/large-floor-vase.png" class="node-212" alt="High-End Large Floor vase" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-213"><span class="text-rgb-13-13-13">High-End Large Floor vase</span></p>
@@ -315,7 +397,7 @@
       <!-- Product 2 -->
       <div class="products-2-218">
         <div class="image-220">
-          <img src="images/node-221.png" class="node-221" alt="Pierced Gold Ginger Jar" />
+          <img src="images/gold-ginger-jar.png" class="node-221" alt="Pierced Gold Ginger Jar" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-222"><span class="text-rgb-13-13-13">Pierced Gold Ginger Jar</span></p>
@@ -329,7 +411,7 @@
       <!-- Product 3 -->
       <div class="products-3-227">
         <div class="image-229">
-          <img src="images/node-230.png" class="node-230" alt="Romantic Rainbow Glass" />
+          <img src="images/rainbow-glass.png" class="node-230" alt="Romantic Rainbow Glass" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-231"><span class="text-rgb-13-13-13">Romantic Rainbow Glass</span></p>
@@ -343,7 +425,7 @@
       <!-- Product 4 -->
       <div class="products-4-236">
         <div class="image-238">
-          <img src="images/node-239.png" class="node-239" alt="Sage flower bouquet" />
+          <img src="images/sage-flower-bouquet.png" class="node-239" alt="Sage flower bouquet" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-240"><span class="text-rgb-13-13-13">Sage flower bouquet</span></p>
@@ -357,7 +439,7 @@
       <!-- Product 5 -->
       <div class="products-5-245">
         <div class="image-247">
-          <img src="images/2919796450014-248.png" class="2919796450014-248" alt="Vase Decoration Art Light Luxury" />
+          <img src="images/luxury-art-vase.png" class="2919796450014-248" alt="Vase Decoration Art Light Luxury" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-249"><span class="text-rgb-13-13-13">Vase Decoration Art Light Luxury</span></p>
@@ -371,7 +453,7 @@
       <!-- Product 6 -->
       <div class="products-6-254">
         <div class="image-256">
-          <img src="images/node-257.png" class="node-257" alt="Wine Glass Rack Upside Down Glass" />
+          <img src="images/wine-glass-rack.png" class="node-257" alt="Wine Glass Rack Upside Down Glass" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-258"><span class="text-rgb-13-13-13">Wine Glass Rack Upside Down Glass</span></p>
@@ -385,7 +467,7 @@
       <!-- Product 7 -->
       <div class="products-7-263">
         <div class="image-265">
-          <img src="images/node-266.png" class="node-266" alt="Wishing Aladdin Lamp Decoration" />
+          <img src="images/aladdin-lamp.png" class="node-266" alt="Wishing Aladdin Lamp Decoration" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-267"><span class="text-rgb-13-13-13">Wishing Aladdin Lamp Decoration</span></p>
@@ -399,7 +481,7 @@
       <!-- Product 8 -->
       <div class="products-8-272">
         <div class="image-274">
-          <img src="images/node-275.png" class="node-275" alt="Cadeira Throne Dining Chair" />
+          <img src="images/throne-dining-chair.png" class="node-275" alt="Cadeira Throne Dining Chair" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-276"><span class="text-rgb-13-13-13">Cadeira Throne Dining Chair</span></p>
@@ -413,7 +495,7 @@
       <!-- Product 9 -->
       <div class="products-9-281">
         <div class="image-283">
-          <img src="images/node-284.png" class="node-284" alt="Creative Luxury White Petal Ceramic" />
+          <img src="images/white-petal-ceramic.png" class="node-284" alt="Creative Luxury White Petal Ceramic" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-285"><span class="text-rgb-13-13-13">Creative Luxury White Petal Ceramic</span></p>
@@ -427,7 +509,7 @@
       <!-- Product 10 -->
       <div class="products-10-290">
         <div class="image-292">
-          <img src="images/node-293.png" class="node-293" alt="World Globe Retro Home Decor" />
+          <img src="images/retro-world-globe.png" class="node-293" alt="World Globe Retro Home Decor" loading="lazy" />
         </div>
         <div class="prod-details">
           <p class="text-294"><span class="text-rgb-13-13-13">World Globe Retro Home Decor</span></p>
@@ -447,69 +529,72 @@
       <p class="text-206"><span class="text-rgb-64-65-66">Hear from our delighted customers who have transformed their homes with Charlie Lux Home's exquisite décor. Real stories, real satisfaction.</span></p>
     </div>
     
-    <div class="row-151">
-      <!-- Review 1 -->
-      <div class="review-1-152">
-        <div class="content-154">
-          <div class="star-159">
-            <img src="images/vector-160.svg" class="vector-160" alt="Star" />
-            <img src="images/vector-161.svg" class="vector-161" alt="Star" />
-            <img src="images/vector-162.svg" class="vector-162" alt="Star" />
-            <img src="images/vector-163.svg" class="vector-163" alt="Star" />
-            <img src="images/vector-164.svg" class="vector-164" alt="Star" />
+    <div class="reviews-carousel-wrapper">
+      <button class="reviews-carousel-btn prev" id="reviews-prev" aria-label="Previous Review">
+        <img src="images/left-arrow.svg" alt="Prev" loading="lazy" />
+      </button>
+
+      <div class="reviews-window">
+        <div class="row-151 reviews-track">
+          <!-- Review 1 -->
+          <div class="review-card-item review-1-152">
+            <div class="content-154">
+              <div class="star-159">
+                <img src="images/vector.svg" class="vector-160" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-161" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-162" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-163" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-164" alt="Star" loading="lazy" />
+              </div>
+              <p class="text-158"><span class="text-rgb-53-51-51">Charlie Lux Home exceeds expectations! Stunning wall art, exceptional quality. My favorite decor destination.</span></p>
+              <div class="author-155">
+                <p class="text-156"><span class="text-rgb-53-51-51">Emily Johnson</span></p>
+                <p class="text-157"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
+              </div>
+            </div>
           </div>
-          <p class="text-158"><span class="text-rgb-53-51-51">"Charlie Lux Home exceeds expectations! Stunning wall art, exceptional quality. My favorite decor destination."</span></p>
-          <div class="author-155">
-            <p class="text-156"><span class="text-rgb-53-51-51">Emily Johnson</span></p>
-            <p class="text-157"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
+
+          <!-- Review 2 (Middle Featured Review Card) -->
+          <div class="review-card-item review-2-179">
+            <div class="content-181">
+              <div class="star-187">
+                <img src="images/vector.svg" class="vector-188" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-189" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-190" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-191" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-192" alt="Star" loading="lazy" />
+              </div>
+              <p class="text-182"><span class="text-rgb-53-51-51">Tableware excellence! Charlie Lux Home's quality and style exceeded my expectations. Highly recommend! Luxury flower vases from Charlie Lux Home are exquisite! Elevate your space with their elegance.</span></p>
+              <div class="author-184">
+                <p class="text-185"><span class="text-rgb-53-51-51">Christopher Wilson</span></p>
+                <p class="text-186"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card-item review-3-165">
+            <div class="content-167">
+              <div class="star-172">
+                <img src="images/vector.svg" class="vector-173" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-174" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-175" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-176" alt="Star" loading="lazy" />
+                <img src="images/vector.svg" class="vector-177" alt="Star" loading="lazy" />
+              </div>
+              <p class="text-171"><span class="text-rgb-53-51-51">Impressive vintage styles, exceeded my expectations. Charlie Lux Home delivers top-notch home decor perfection.</span></p>
+              <div class="author-168">
+                <p class="text-169"><span class="text-rgb-53-51-51">Michael Davis</span></p>
+                <p class="text-170"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Review 2 (Middle Featured Review Card) -->
-      <div class="review-2-179">
-        <div class="content-181">
-          <div class="star-187">
-            <img src="images/vector-188.svg" class="vector-188" alt="Star" />
-            <img src="images/vector-189.svg" class="vector-189" alt="Star" />
-            <img src="images/vector-190.svg" class="vector-190" alt="Star" />
-            <img src="images/vector-191.svg" class="vector-191" alt="Star" />
-            <img src="images/vector-192.svg" class="vector-192" alt="Star" />
-          </div>
-          <p class="text-182"><span class="text-rgb-53-51-51">"Tableware excellence! Charlie Lux Home's quality and style exceeded my expectations. Highly recommend! Luxury flower vases from Charlie Lux Home are exquisite! Elevate your space with their elegance."</span></p>
-          <div class="author-184">
-            <p class="text-185"><span class="text-rgb-53-51-51">Christopher Wilson</span></p>
-            <p class="text-186"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Review 3 -->
-      <div class="review-3-165">
-        <div class="content-167">
-          <div class="star-172">
-            <img src="images/vector-173.svg" class="vector-173" alt="Star" />
-            <img src="images/vector-174.svg" class="vector-174" alt="Star" />
-            <img src="images/vector-175.svg" class="vector-175" alt="Star" />
-            <img src="images/vector-176.svg" class="vector-176" alt="Star" />
-            <img src="images/vector-177.svg" class="vector-177" alt="Star" />
-          </div>
-          <p class="text-171"><span class="text-rgb-53-51-51">"Impressive vintage styles, exceeded my expectations. Charlie Lux Home delivers top-notch home decor perfection."</span></p>
-          <div class="author-168">
-            <p class="text-169"><span class="text-rgb-53-51-51">Michael Davis</span></p>
-            <p class="text-170"><span class="text-rgb-53-51-51">Los Angeles, CA</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="arrow-193">
-      <div class="left-arrow-194">
-        <img src="images/vector-197.svg" class="vector-197" alt="Prev" />
-      </div>
-      <div class="right-arrow-199">
-        <img src="images/vector-202.svg" class="vector-202" alt="Next" />
-      </div>
+      <button class="reviews-carousel-btn next" id="reviews-next" aria-label="Next Review">
+        <img src="images/right-arrow.svg" alt="Next" loading="lazy" />
+      </button>
     </div>
   </section>
 
@@ -521,9 +606,14 @@
         <p class="text-134"><span class="text-rgb-64-65-66">Join the Charlie Lux Home community! Be the first to discover new arrivals, design tips, and special offers to transform your home.</span></p>
       </div>
       <div class="email-135">
-        <form class="email-135-inputs" action="#" method="POST" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
-          <input type="email" placeholder="enter your Email" class="newsletter-input-field" required />
-          <button type="submit" class="newsletter-submit-btn">Subscribe</button>
+        <form class="email-135-inputs" action="#" method="POST" onsubmit="event.preventDefault(); alert('Subscribed successfully!'); this.reset();">
+          <input type="email" placeholder="Enter Your Email" class="newsletter-input-field" required />
+          <button type="submit" class="newsletter-submit-btn">
+            <span class="newsletter-btn-icon-wrapper">
+              <img src="images/circular-arrow.png" alt="Arrow" loading="lazy" />
+            </span>
+            <span class="newsletter-btn-text">Subscribe</span>
+          </button>
         </form>
         <p class="text-149"><span class="text-rgb-64-65-66">We care about your data in our Privacy Policy</span></p>
       </div>
@@ -539,15 +629,15 @@
       <!-- Company Branding info -->
       <div class="company-111">
         <div class="logo-123">
-          <img src="images/Logo.png" class="vector-logo" alt="Charlie Lux Home Logo" />
+          <img src="images/Logo.png" class="vector-logo" alt="Charlie Lux Home Logo" loading="lazy" />
         </div>
         <p class="text-122"><span class="text-rgb-13-13-13">Charlie Lux Home delivers timeless, elegant décor that enhances comfort and style, transforming spaces into personalized, inviting homes.</span></p>
         <div class="social-media-112">
           <div class="facebook-113">
-            <img src="images/vector-115.svg" class="vector-115" alt="Facebook" />
+            <img src="images/facebook-icon.png" class="vector-115" alt="Facebook" loading="lazy" />
           </div>
           <div class="instagram-116">
-            <img src="images/vector-119.svg" class="vector-119" alt="Instagram" />
+            <img src="images/instagram-icon.png" class="vector-119" alt="Instagram" loading="lazy" />
           </div>
         </div>
       </div>
@@ -575,52 +665,26 @@
         </div>
       </div>
       
-    </div>
+      </div>
     
     <!-- Bottom footer row (copyright & payment methods) -->
     <div class="footer-bottom-4">
-      <p class="text-6"><span class="text-rgb-64-65-66">©Copyright 2024 Thevisiontech | All Rights Reserved.</span></p>
+      <p class="text-6"><span class="text-rgb-64-65-66">©Copyright 2024 <strong class="thevisiontech-link">Thevisiontech</strong> | All Rights Reserved.</span></p>
       
       <div class="payment-7">
-        <div class="frame-8">
-          <img src="images/vector-10.svg" class="vector-10" alt="Visa" />
-        </div>
-        <div class="frame-13">
-          <img src="images/vector-14.svg" class="vector-14" alt="MasterCard" />
-        </div>
-        <div class="frame-24">
-          <img src="images/vector-25.svg" class="vector-25" alt="Amex" />
-        </div>
-        <div class="frame-28">
-          <img src="images/vector-30.svg" class="vector-30" alt="Discover" />
-        </div>
-        <div class="frame-34">
-          <img src="images/vector-35.svg" class="vector-35" alt="PayPal" />
-        </div>
-        <div class="frame-43">
-          <img src="images/vector-44.svg" class="vector-44" alt="ApplePay" />
-        </div>
-        <div class="frame-53">
-          <img src="images/vector-54.svg" class="vector-54" alt="GooglePay" />
-        </div>
-        <div class="frame-61">
-          <img src="images/vector-64.svg" class="vector-64" alt="ShopPay" />
-        </div>
-        <div class="frame-70">
-          <img src="images/vector-71.svg" class="vector-71" alt="JCB" />
-        </div>
-        <div class="frame-76">
-          <img src="images/vector-77.svg" class="vector-77" alt="Diners" />
-        </div>
-        <div class="frame-82">
-          <img src="images/vector-83.svg" class="vector-83" alt="UnionPay" />
-        </div>
-        <div class="frame-86">
-          <img src="images/vector-88.svg" class="vector-88" alt="Elo" />
-        </div>
-        <div class="frame-91">
-          <img src="images/vector-92.svg" class="vector-92" alt="Hipercard" />
-        </div>
+          <img src="images/amex.png" class="vector-10" alt="Visa" loading="lazy" />
+          <img src="images/apple-pay.png" class="vector-14" alt="MasterCard" loading="lazy" />
+          <img src="images/blue-switch.png" class="vector-25" alt="Amex" loading="lazy" />
+          <img src="images/discover.png" class="vector-30" alt="Discover" loading="lazy" />
+          <img src="images/elo.png" class="vector-35" alt="PayPal" loading="lazy" />
+          <img src="images/purple-pay.png" class="vector-44" alt="ApplePay" loading="lazy" />
+          <img src="images/visa.png" class="vector-54" alt="GooglePay" loading="lazy" />
+          <img src="images/jcb.png" class="vector-64" alt="ShopPay" loading="lazy" />
+          <img src="images/paypal.png" class="vector-71" alt="JCB" loading="lazy" />
+          <img src="images/v.png" class="vector-77" alt="Diners" loading="lazy" />
+          <img src="images/rupay.png" class="vector-83" alt="UnionPay" loading="lazy" />
+          <img src="images/pay.png" class="vector-88" alt="Elo" loading="lazy" />
+          <img src="images/google-pay.png" class="vector-92" alt="Hipercard" loading="lazy" />
       </div>
     </div>
     
@@ -682,8 +746,179 @@
       showSlide(0);
       startAutoplay();
     }
+
+    // New Arrivals Carousel Slider
+    const arrivalsTrack = document.querySelector('.row-321');
+    const arrivalsPrev = document.getElementById('arrivals-prev');
+    const arrivalsNext = document.getElementById('arrivals-next');
+    let arrivalsIndex = 0;
+
+    function updateArrivalsCarousel() {
+      if (!arrivalsTrack) return;
+      const cards = arrivalsTrack.children;
+      if (cards.length === 0) return;
+      
+      const cardWidth = cards[0].getBoundingClientRect().width;
+      const gap = 24; // Gap between cards in pixels
+      const step = cardWidth + gap;
+
+      // Calculate max slide index
+      const windowWidth = arrivalsTrack.parentElement.getBoundingClientRect().width;
+      const visibleCount = Math.round(windowWidth / step);
+      const maxIndex = Math.max(0, cards.length - visibleCount);
+
+      if (arrivalsIndex > maxIndex) {
+        arrivalsIndex = maxIndex;
+      }
+
+      arrivalsTrack.style.transform = `translateX(-${arrivalsIndex * step}px)`;
+
+      // Set disabled states for arrows
+      if (arrivalsPrev) {
+        arrivalsPrev.style.opacity = arrivalsIndex === 0 ? '0.4' : '1';
+        arrivalsPrev.style.pointerEvents = arrivalsIndex === 0 ? 'none' : 'auto';
+      }
+      if (arrivalsNext) {
+        arrivalsNext.style.opacity = arrivalsIndex === maxIndex ? '0.4' : '1';
+        arrivalsNext.style.pointerEvents = arrivalsIndex === maxIndex ? 'none' : 'auto';
+      }
+    }
+
+    if (arrivalsPrev && arrivalsNext && arrivalsTrack) {
+      arrivalsPrev.addEventListener('click', () => {
+        if (arrivalsIndex > 0) {
+          arrivalsIndex--;
+          updateArrivalsCarousel();
+        }
+      });
+
+      arrivalsNext.addEventListener('click', () => {
+        const cards = arrivalsTrack.children;
+        const cardWidth = cards[0].getBoundingClientRect().width;
+        const gap = 24;
+        const step = cardWidth + gap;
+        const windowWidth = arrivalsTrack.parentElement.getBoundingClientRect().width;
+        const visibleCount = Math.round(windowWidth / step);
+        const maxIndex = Math.max(0, cards.length - visibleCount);
+
+        if (arrivalsIndex < maxIndex) {
+          arrivalsIndex++;
+          updateArrivalsCarousel();
+        }
+      });
+
+      window.addEventListener('resize', updateArrivalsCarousel);
+      // Wait for font loading or content render layout
+      setTimeout(updateArrivalsCarousel, 300);
+    }
+
+    // Customer Reviews Carousel
+    const reviewsTrack = document.querySelector('.reviews-track');
+    const reviewsPrev = document.getElementById('reviews-prev');
+    const reviewsNext = document.getElementById('reviews-next');
+    let reviewsIndex = 1; // Start at Christopher Wilson (middle card)
+
+    function updateReviewsCarousel() {
+      if (!reviewsTrack) return;
+      const cards = reviewsTrack.children;
+      if (cards.length === 0) return;
+
+      // Ensure current active index is within bounds
+      if (reviewsIndex < 0) reviewsIndex = 0;
+      if (reviewsIndex >= cards.length) reviewsIndex = cards.length - 1;
+
+      // Mark active card
+      Array.from(cards).forEach((card, idx) => {
+        if (idx === reviewsIndex) {
+          card.classList.add('active');
+        } else {
+          card.classList.remove('active');
+        }
+      });
+
+      const activeCard = cards[reviewsIndex];
+      const cardWidth = activeCard.offsetWidth;
+      const gap = parseFloat(window.getComputedStyle(reviewsTrack).gap) || 30;
+      const windowWidth = reviewsTrack.parentElement.offsetWidth;
+
+      // Centering math:
+      const activeCardCenter = (reviewsIndex * (cardWidth + gap)) + (cardWidth / 2);
+      const translateX = (windowWidth / 2) - activeCardCenter;
+
+      reviewsTrack.style.transform = `translateX(${translateX}px)`;
+    }
+
+    if (reviewsTrack && reviewsPrev && reviewsNext) {
+      reviewsPrev.addEventListener('click', () => {
+        const cards = reviewsTrack.children;
+        let newIndex = reviewsIndex - 1;
+        if (newIndex < 0) newIndex = cards.length - 1;
+        reviewsIndex = newIndex;
+        updateReviewsCarousel();
+      });
+
+      reviewsNext.addEventListener('click', () => {
+        const cards = reviewsTrack.children;
+        let newIndex = reviewsIndex + 1;
+        if (newIndex >= cards.length) newIndex = 0;
+        reviewsIndex = newIndex;
+        updateReviewsCarousel();
+      });
+
+      window.addEventListener('resize', updateReviewsCarousel);
+      // Initialize
+      setTimeout(updateReviewsCarousel, 150);
+    }
+
+    // Mobile Drawer Navigation Toggle
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const drawerOverlay = document.getElementById('drawer-overlay');
+    const drawerClose = document.getElementById('drawer-close');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+
+    if (mobileMenuToggle && mobileDrawer && drawerOverlay) {
+      const openDrawer = () => {
+        mobileDrawer.classList.add('active');
+        drawerOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      };
+
+      const closeDrawer = () => {
+        mobileDrawer.classList.remove('active');
+        drawerOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      };
+
+      mobileMenuToggle.addEventListener('click', openDrawer);
+      if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', closeDrawer);
+
+      drawerLinks.forEach(link => {
+        link.addEventListener('click', closeDrawer);
+      });
+    }
   });
 </script>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-header">
+      <div class="drawer-logo">
+        <img src="images/Logo.png" class="vector-logo" alt="Charlie Lux Home Logo" loading="lazy" />
+      </div>
+      <button class="drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#hero-banner" class="drawer-link">Home</a>
+      <a href="#new-arrivals" class="drawer-link">Shop All</a>
+      <a href="#categories" class="drawer-link">Collections</a>
+      <a href="#new-arrivals" class="drawer-link">New Arrivals</a>
+      <a href="#footer" class="drawer-link">About Us</a>
+      <a href="#footer" class="drawer-link">Contact</a>
+    </nav>
+  </div>
+  <div class="drawer-overlay" id="drawer-overlay"></div>
 
 </body>
 </html>
